@@ -20,6 +20,14 @@
   font-family: chaos;
   src: url(The\ Modern\ Chaos.ttf);
 }
+@font-face {
+  font-family: impact;
+  src: url(Impacto\ Final!.ttf);
+}
+@font-face {
+  font-family: franchise;
+  src: url(Franchise.ttf);
+}
 body {
   background-image: url(6222603.jpg);
   background-size: cover;
@@ -30,14 +38,14 @@ body {
   background-color: black;
 }
 .website-heading {
-  font-size: 3.5rem;
-  font-weight: bold;
+  font-size: 5.5rem;
+  font-weight:300;
   background-color: #d7d7d7;
   background-image: linear-gradient(147deg, #353535 0%, #d7d7d7 54%);
   
+  font-stretch:wider;
   
-  
-  font-family: 'Undertown', sans-serif;
+  font-family: 'impact', sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -422,7 +430,6 @@ footer {
   font-family: 'Catamaran', sans-serif;
 }
 
-
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -452,35 +459,17 @@ footer {
 .footer-right .footer-links li a:hover {
   color: #FFD89C;
 }
+
 footer .footer-left p {
   color: black;
 }
 
-
-
-.hire-me-btn {
-  background-color: #A0C49D;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 0.8rem 1.2rem;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: 'Catamaran', sans-serif;
+.footer-left .logo {
+  margin-left: 0rem;
 }
 
-.hire-me-btn:hover {
-  background-color: #001C30;
+.footer-left .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
-
-.hire-me-btn a {
-  color: white;
-  text-decoration: none;
-}
-
-.hire-me-btn:focus {
-  outline: none;
-}
-
